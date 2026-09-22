@@ -57,7 +57,7 @@ var (
 package routes
 
 import (
-	oa "github.com/nobid-lsp-latvia/go-openapi"
+	oa "github.com/lx-lib/go-openapi"
 )
 
 func Init(a *template.App) error {

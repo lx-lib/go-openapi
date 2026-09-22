@@ -1,4 +1,4 @@
-module github.com/nobid-lsp-latvia/go-openapi
+module github.com/lx-lib/go-openapi
 
 go 1.23.9
 
