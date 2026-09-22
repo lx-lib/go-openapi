@@ -9,7 +9,7 @@ import (
 	"slices"
 	"strings"
 
-	openapi "github.com/nobid-lsp-latvia/go-openapi/openapi"
+	openapi "github.com/lx-lib/go-openapi/openapi"
 
 	"azugo.io/azugo"
 	"azugo.io/core"
