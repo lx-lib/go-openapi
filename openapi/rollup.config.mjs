@@ -15,6 +15,12 @@ export default {
             'node_modules/swagger-ui-dist/favicon-16x16.png',
           ], dest: 'public/swagger/'
         },
+        {
+          src: [
+            'node_modules/@scalar/api-reference/dist/browser/standalone.js',
+            'node_modules/@scalar/api-reference/dist/style.css',
+          ], dest: 'public/scalar/'
+        },
       ],
     }),
   ],

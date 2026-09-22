@@ -1,0 +1,11 @@
+secrets:
+  - id: private-ipv4-10
+    paths:
+      - "openapi/public/**/*.js"
+      - "openapi/public/**/*.css"
+    statement: "Minified vendor bundles copied in by openapi/rollup.config.mjs. Packed SVG path data contains dot-separated digit runs that match the private class-A pattern."
+  - id: private-ipv4-192-168
+    paths:
+      - "openapi/public/**/*.js"
+      - "openapi/public/**/*.css"
+    statement: "Minified vendor bundles copied in by openapi/rollup.config.mjs. Redoc ships a private class-C literal as the built-in example it renders for format:ipv4 schema fields."
